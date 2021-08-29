@@ -1,0 +1,11 @@
+# om namah shivaya
+
+# directories
+node_modules
+
+# files
+.dockerignore
+.gitignore
+.prettierrc
+deploy.sh
+Dockerfile
