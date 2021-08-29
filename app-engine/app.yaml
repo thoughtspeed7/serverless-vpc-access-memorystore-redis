@@ -13,4 +13,6 @@ handlers:
     redirect_http_response_code: 301
     script: auto
 vpc_access_connector:
+  # replace GCP_PROJECT_ID with your gcp project id
+  # replace GCP_REGION with your gcp region
   name: projects/GCP_PROJECT_ID/locations/GCP_REGION/connectors/hello-redis-vpc-connector
